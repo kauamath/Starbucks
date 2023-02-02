@@ -23,8 +23,8 @@ header a {
   color: #017143;
 }
 
-header a:hover{
-    color: #02402a;
+header a:hover {
+  color: #02402a;
 }
 
 .container {
@@ -71,8 +71,8 @@ button {
   margin-top: 20px;
 }
 
-button:hover{
-    background: #02402a;
+button:hover {
+  background: #02402a;
 }
 
 section img {

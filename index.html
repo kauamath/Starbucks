@@ -42,14 +42,26 @@
       </main>
 
       <section>
-        <img src="./img/img1.png" alt="imagem-Starbucks" />
+        <img src="./img/img1.png" alt="imagem-Starbucks" id="firstImage" />
       </section>
     </div>
 
     <div class="img-thumb">
-      <img src="./img/thumb1.png" alt="imagem-Starbucks" />
-      <img src="./img/thumb2.png" alt="imagem-Starbucks" />
-      <img src="./img/thumb3.png" alt="imagem-Starbucks" />
+      <img
+        src="./img/thumb1.png"
+        alt="imagem-Starbucks"
+        onclick="changeImage('./img/img1.png'); changeCirle('#017143')"
+      />
+      <img
+        src="./img/thumb2.png"
+        alt="imagem-Starbucks"
+        onclick="changeImage('./img/img2.png'); changeCirle('#eb7495')"
+      />
+      <img
+        src="./img/thumb3.png"
+        alt="imagem-Starbucks"
+        onclick="changeImage('./img/img3.png'); changeCirle('#d752b1')"
+      />
     </div>
   </body>
   <script src="./scripts.js"></script>
